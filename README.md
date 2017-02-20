@@ -2,7 +2,12 @@
 微信支付
 下单处理
 
+/*
+ *支付下单
+*/
+
 public function actionIndex()
+
     {
         //商品id
         $good_id = Yii::$app->request->get('goodid');
